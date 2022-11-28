@@ -11,8 +11,8 @@ The instructions here are for new members to get familar with group coding style
   - Fork this `onboard_checklist` repo by clicking on the top right corner on the github web of this repo.
   - SSH `git clone` your forked repo to your local computer.
   - Create a new branch of your repo `git checkout -b [your_name]`, usually the branch name refers to the issues or problems to be solved. Here as a tutorial, use your name as the branch name.
-  - Add the group main repo into your repo setting by `git remote add remote git@github.com:yanglonggroup/onboard_checklist.git`.
-  - Run `git remote -v` to check if you set up correctly. It should show `origin` as your own forked repo; and show `remote` as the group main repo.
+  - Add the group main repo into your repo setting by `git remote add upstream git@github.com:yanglonggroup/onboard_checklist.git`.
+  - Run `git remote -v` to check if you set up correctly. It should show `origin` as your own forked repo; and show `upstream` as the group's main repo.
   - Create a new `[your_name].py file` at the people folder. You can write some simple codes in this file, such as some dummy codes like `import numpy` etc. Don't let it be empty, otherwise empty files cannot be uploaded to github. This is just for you to get familar with github workflow.
   - Use git add, git commit, git push to update your local work to remote. For the git commit messages, please refer to the (numpy commit message style)[https://numpy.org/devdocs/dev/development_workflow.html#writing-the-commit-message]. For example, we use `DOC, ENH, MNT` to represent the work for writing documentation, new codes, and updating old codes, respectively.
   - Go to the github web of your forked repo, create a PR (pull request), to merge the branch with your work to the main branch of the group.
