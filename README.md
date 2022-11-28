@@ -37,6 +37,6 @@ The instructions here are for new members to get familar with group coding style
   - You may use some popular IDE to help correct your codes, such as PyCharm.
   - Keep the import packages on the top.
   - Please write codes in functions and classes in `pkgname` folder, except main.py where we import the functions you wrote elsewhere and just simply run it.
-  - Always write comments to explain your codes and functions, no matter how trivial the function is. This is important for people to reuse and maintain your codes.
+  - Always write comments (we use [Google docstring style](https://www.cnblogs.com/ryuasuka/p/11085387.html)) to explain your codes and functions, no matter how trivial the function is. This is important for people to reuse and maintain your codes.
   - We usually use matplotlib for plotting figures and results.
 

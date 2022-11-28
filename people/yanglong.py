@@ -1,35 +1,27 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
+
 def create_random_xy(n):
     """
     Creating a random 2D array with length n.
-    
-    Parameters
-    ----------
-    n : int
-        The length of the array to be created.
 
-    Returns
-    -------
-    xy : numpy.ndarray
-        The 2D numpy array created.
+    Args:
+        n (int): The length of the array to be created.
+
+    Returns:
+        numpy.ndarray: The 2D numpy array created.
     """
     xy = np.random.rand(2, n)
     return xy
 
+
 def plot_xy(xy):
     """
-    Plotting a 2D array in matplotlib
+    Plotting a 2D array in matplotlib.
 
-    Parameters
-    ----------
-    xy : numpy.ndarray
-        The 2D numpy array created.
-
-    Returns
-    -------
-    None
+    Args:
+        xy (numpy.ndarray): The 2D numpy array created.
     """
     fig = plt.figure()
     ax = fig.add_subplot(111)
@@ -38,6 +30,7 @@ def plot_xy(xy):
     ax.set_ylabel("Y")
     plt.show()
     return
+
 
 def main():
     xy = create_random_xy(10)
