@@ -37,6 +37,27 @@ The instructions here are for new members to get familar with group coding style
   - You may use some popular IDE to help correct your codes, such as PyCharm.
   - Keep the import packages on the top.
   - Please write codes in functions and classes in `pkgname` folder, except main.py where we import the functions you wrote elsewhere and just simply run it.
-  - Always write comments (we use [Google docstring style](https://www.cnblogs.com/ryuasuka/p/11085387.html)) to explain your codes and functions, no matter how trivial the function is. This is important for people to reuse and maintain your codes.
-  - We usually use matplotlib for plotting figures and results.
+  - Always write comments (we use [Google docstring style](https://www.cnblogs.com/ryuasuka/p/11085387.html)) to explain your codes and functions, no matter how trivial the function is. This is important for people to reuse and maintain your codes. For example:
+  ```
+  def add(x, y):
+    """
+    This function sums up two numbers.
 
+    Args:
+        x (float): The first number to be added.
+        y (float): The second number to be added.
+        
+    Returns:
+        sum (float): The sum of x and y.
+    """
+    sum = x + y
+
+    return sum
+  ```
+  
+5. Commonly used packages:
+  - numpy: for loading numerical data.
+  - pandas: for loading csv style data.
+  - matplotlib: we use it for plotting figures and results.
+  - scipy: scientific computation.
+  - sklearn: some machine learning related models and statistical methods.
