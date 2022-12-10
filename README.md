@@ -34,7 +34,7 @@ The instructions here are for new members to get familar with group coding style
   
 4. Code style:
   - Please read [PEP 8](https://pep8.org/), and stick with this coding sytle for ALL of your work.
-  - You may use some popular IDE to help correct your codes, such as PyCharm.
+  - You may use some popular IDE to help correct your codes, such as PyCharm. See tutorial [here](https://zhuanlan.zhihu.com/p/33705005).
   - Keep the import packages on the top.
   - Please write codes in functions and classes in `pkgname` folder, except main.py where we import the functions you wrote elsewhere and just simply run it.
   - Always write comments (we use [Google docstring style](https://www.cnblogs.com/ryuasuka/p/11085387.html)) to explain your codes and functions, no matter how trivial the function is. This is important for people to reuse and maintain your codes. For example:
