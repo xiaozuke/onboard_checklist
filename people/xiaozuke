@@ -1,0 +1,11 @@
+import random
+list=[random.randint(1,10) for i in range(20)]
+print(list)
+x=dict()
+for i in range(len(list)):
+c=list[i]
+if(c in x):
+x[c]=x[c]+1
+else:
+x[c]=1
+print(x)
